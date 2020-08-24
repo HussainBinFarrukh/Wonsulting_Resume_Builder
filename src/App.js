@@ -1,16 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {Route} from 'react-router-dom'
+import {homepageComponent} from './Components/HomePage/homepage.component'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <h2>Nav bar</h2>
 
-        <h1>Welcome to Wonsulting!</h1>
-
-      </header>
     </div>
   );
 }
